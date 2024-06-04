@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    font-family: 'Montserrat';
+}
+
+.main-container__for-form__title-form{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-container__for-form{
+    border: 1px solid #d8d8d8;
+    padding: 20px;
+    border-radius: 32px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+
+}
+
+.form-cls{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-default{
+    outline: 0;
+    border: 1px solid #bdb3b3;
+    padding: 5px 10px;
+    border-radius: 16px;
+    font-family: 'Montserrat';
+}
+
+.button-default{
+    border-radius: 16px;
+    background-color: rgb(106, 126, 216);
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/* Main page */
+
+.dashbord_container{
+    display: grid;
+    grid-template-columns: 40% 45% 15%;
+    color: #2e6297;
+    height: 100vh;
+    /* color: #fc1515; */
+}
+
+.taxi_container{    
+    background-color: white;
+    /* padding: 10px; */
+}
+
+.clients_container{
+    background-color: #fafafa;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.taxi_container__content__head_title{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taxi_container__content__body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+
+
+.title_for_taxists_container{
+    /* font-size: 18px; */
+    color: #bdb3b3;
+}
+
+.container_for_other_taxists{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wr_view_part_of_content_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Pfofile section */
+
+.profile_container{
+    position: relative;
+    display: block;
+}
+
+.wrapper-icon-arrow-back{
+    display: flex;
+    padding: 5px;
+    justify-content: end;
+}
+.wrapper-icon-arrow-back img{
+    width: 30px;
+    transform: rotate(180deg);
+}
+
+.wr_arrow_back_icon{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 100;
+    transform: rotate(180deg);
+    transition: all .01s ease-in-out;
+    transition: transform .1s ease-in-out;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+
+.arrow_back_icon {
+    height: 30px;
+    width: 30px;
+    transition: all .2s ease-in-out;
+}
+
+.arrow_back_icon:hover {
+    transform: translate(1.02);
+}
+.wrapper_profile_icon{
+    padding: 40px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_profile_pick_icon{
+    width: 60px;
+    /* border: 1px so; */
+}
+
+.profile_container__content{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.wrp__edit_button_for_profile{
+    display: flex;
+    justify-content: center;
+}
+
+.edit_button_for_profile{
+    border-radius: 16px;
+    background-color: rgb(106, 126, 216);
+    width: fit-content;
+    color: white;
+    font-weight: 500;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.wrp_exit_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.wrp_exit_icon img{
+    width: 30px;
+}
+
+.wr_search_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.select_style{
+    border-radius: 16px;
+    background-color: #d8d8d8;
+    border: none;
+    padding: 5px;
+    width: 16vw;
+    font-size: 0.8rem;
+    font-family: 'Montserrat';
+}
+
+.wr_btn_search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_search{
+    background-color: rgb(106, 126, 216);
+    color: white;
+    font-weight: 500;
+    padding: 5px 20px;
+    border-radius: 16px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.btn_default_dis{
+    background-color: rgb(202, 202, 202);
+    color: white;
+    font-weight: 500;
+    padding: 5px 20px;
+    border-radius: 16px;
+    width: fit-content;
+    cursor: not-allowed;
+}
+
+.input_default{
+    outline: 0;
+    border: 1px solid #bdb3b3;
+    padding: 5px 10px;
+    border-radius: 16px;
+    font-family: 'Montserrat';
+}

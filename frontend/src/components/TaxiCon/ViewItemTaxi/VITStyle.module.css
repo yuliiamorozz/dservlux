@@ -1,0 +1,25 @@
+.container_for_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+   
+}
+
+
+.container_for_item__title{
+    color: #bdb3b3;
+    text-align: center;
+}
+
+.container_for_item__view_elem{
+    background-color: #d8d8d8;
+    border-radius: 16px;
+    padding: 5px 10px;
+    width: 19vw;
+}
+
+.a_phone_link{
+    text-decoration: none;
+}

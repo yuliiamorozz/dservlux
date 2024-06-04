@@ -1,0 +1,46 @@
+.container_for_other_taxist__item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    background-color: #d8d8d8;
+}
+
+.container_for_other_taxist__item__busy{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+    /* background-color: #fafafa; */
+    /* border-radius: 4px; */
+    /* padding: 2px; */
+}
+
+.wrbusy0{
+    background-color: rgb(120, 231, 105);
+}
+.wrbusy1{
+    background-color:  rgb(243, 255, 136);
+}
+.wrbusy2{
+    background-color: rgb(253, 207, 122);
+}
+
+.busy_level{
+    padding: 2px 4px;
+    /* border-radius: 8px; */
+}
+
+.busy0{
+    background-color: rgb(25, 199, 2);
+}
+
+.busy1{
+    background-color: rgb(227, 252, 6);
+}
+
+.busy2{
+    background-color: rgb(255, 172, 18);
+}

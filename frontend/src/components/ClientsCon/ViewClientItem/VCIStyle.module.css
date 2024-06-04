@@ -1,0 +1,15 @@
+.clients_container__item{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #d8d8d8;
+    cursor: pointer;
+}
+
+.clients_container__item:hover{
+    background-color: #f0f0f0 ;
+}
+
+/* .clients_container__item:first-child{
+    background-color: rgb(255, 240, 30);
+} */

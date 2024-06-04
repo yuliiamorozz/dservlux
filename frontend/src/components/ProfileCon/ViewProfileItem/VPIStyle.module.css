@@ -1,0 +1,21 @@
+.profile_container__content__item{
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    justify-content: start;
+}
+
+.profile_container__content__item__title{
+    color: #d8d8d8;
+    display: flex;
+    justify-content: start;
+}
+.profile_container__content__item__value{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile_container__content__item__value img{
+    width: 20px;
+}
